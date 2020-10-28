@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #595b83;
+    font-family: 'Turret Road', cursive;
+    font-size: 25px;
+}
+h1 {
+    font-family: 'Syne Mono', monospace;
+    margin-top: 0;
+    font-size: 90px;
+    
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+
+.container-top {
+    position: relative;
+    padding-top: 100px;
+    background-color: #ff9642;
+    /* background-color: #e3fdfd; */
+    
+
+    }
+
+    .container-top h2 span {
+        text-decoration: underline;
+        font-family: 'Syne Mono', monospace;
+    }
+
+    .cloud-top {
+        position: absolute;
+        top: 50px;
+        right: 300px;
+        /* 위쪽으로부터 50px, 오른쪽으로부터 300px */
+    }
+
+    .cloud-bottom {
+        position: absolute;
+        bottom: 300px;
+        left:300px;
+        /* 아래쪽으로부터 300px, 왼쪽으로부터 300px */
+        
+    }
+
+.profile {
+
+    width:30%;
+    margin:0 auto;
+    padding : 100px 0;
+}
+
+.profile image {
+    width: 70%;
+}
+
+.profile-p {
+    line-height: 2;
+}
+
+.skills {
+    padding-top: 100;
+    line-height: 2;
+}
+
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.skill-photo1
+{
+    float: left;
+    width:25%;
+    margin-right:30px;
+}
+
+.skill-photo2
+{
+    float:right;
+    width:25%;
+    margin-left:30px;
+}
+
+.contact-me{
+    width: 40%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact-me .btn{
+    background-color: #ff9642;
+    color:white;
+    padding:10px 20px; /* 위아래 10 좌우 20  */
+    border-radius: 10px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+
+.container-bottom{
+    padding: 50px 0;
+    background-color:#ff9642;
+}
+
+.container-bottom a {
+    font-size:20px;
+    margin: 0 15px;
+    color: #595b83;
+}
+
+.container-bottom p {
+    color: white;
+    margin-top:50px
+}
